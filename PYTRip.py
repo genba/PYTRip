@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import urllib2
 import os
 
-def downloadToMP3(url, folder subfolder=""):
+def downloadToMP3(url, folder, subfolder=""):
     video = pafy.new(url)
     best = video.getbest()
     folder = folder+subfolder
