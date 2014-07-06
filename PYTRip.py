@@ -41,7 +41,7 @@ def downloadSong(artist, song, folder):
     songURL = "http://www.youtube.com" + data.find("a")['href']
     downloadToMP3(songURL, folder)
     
-def downloadTop(artist, number=5, folder):
+def downloadTop(artist, folder, number=5):
     artistRep = artist.replace(' ','+')
     url = "http://www.youtube.com/results?search_query="+artistRep+"&filters=video"
     soup = BeautifulSoup(urllib2.urlopen(url))

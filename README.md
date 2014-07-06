@@ -1,9 +1,14 @@
 #PYTRip
 A collection of python functions to aid in ripping songs from YouTube in MP3 format.
 
+#Installation
+```
+pip install PYTRip
+```
+
 #Usage
 ```python
-import PYTRip
+from PYTRip import PYTRip
 ```
 
 
