@@ -33,7 +33,7 @@ PYTRip.downloadSong(artist, song, folder)
 
 Download the top search results for an artist:
 ```python
-PYTRip.downloadTop(artist, number, folder)
+PYTRip.downloadTop(artist, folder, number=x)
 ```
 *The number parameter is optional and defaults to 5*
 
